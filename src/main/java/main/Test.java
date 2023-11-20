@@ -15,6 +15,7 @@ public class Test {
         map.put("name","JackSon");
         JSONObject json = new JSONObject(map);
         System.out.println(json.toString());
+        System.out.println(json.toString());
         String encode = Base64.encode(map.toString().getBytes(StandardCharsets.UTF_8));
         System.out.println(encode);
         byte[] decode = Base64.decode(encode.getBytes(StandardCharsets.UTF_8));
