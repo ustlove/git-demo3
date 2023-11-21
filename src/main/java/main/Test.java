@@ -16,7 +16,6 @@ public class Test {
         JSONObject json = new JSONObject(map);
         System.out.println(json.toString());
         System.out.println(json.toString());
-
         System.out.println(" master");
         String encode = Base64.encode(map.toString().getBytes(StandardCharsets.UTF_8));
         System.out.println(encode);
